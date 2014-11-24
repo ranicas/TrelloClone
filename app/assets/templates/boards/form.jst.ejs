@@ -1,0 +1,9 @@
+<input type="text" name="title" id="title" class="form-control" 
+  <% if (board.escape('title') ==="") { %>
+	  placeholder="Enter Title"
+	<% } else { %>
+		value="<%= board.escape('title') %>"
+	<% } %>
+>
+<button class="btn btn-default">Create Board</button>
+

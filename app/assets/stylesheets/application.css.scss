@@ -26,6 +26,13 @@
 	text-align: left
 }
 
+a:hover{
+	text-decoration: none;
+}
+
+#new-board * {
+	margin-top: 2px;
+}
 .list {
 	border: 1px solid gray;
 	border-radius: 4px;
