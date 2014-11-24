@@ -34,10 +34,10 @@ a:hover{
 	margin-top: 2px;
 }
 .list {
-	border: 1px solid gray;
 	border-radius: 4px;
 	margin: 5px;
 	padding: 5px 5px;
+	text-align: left;
 }
 
 .list-name {
@@ -46,7 +46,8 @@ a:hover{
 
 .card {
 	margin-top: 2px;
-	padding: 5px 5px;
-	border: 1px solid gray;
 	border-radius: 4px;
+	width: 100%;
+	float: left;
+	text-align: left;
 }

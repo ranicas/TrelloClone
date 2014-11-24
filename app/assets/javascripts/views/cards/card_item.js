@@ -1,5 +1,5 @@
 TrelloClone.Views.CardItem = Backbone.View.extend({
-	className: "card",
+	className: "btn btn-default card",
   template: JST['cards/item'],
 	
 	initialize: function() {
