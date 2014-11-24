@@ -50,4 +50,12 @@ a:hover{
 	width: 100%;
 	float: left;
 	text-align: left;
+	background-color: white;
+	border: none;
 }
+
+.card:hover {
+	color: darkolivegreen;
+	background-color: white;
+	box-shadow: inset 0px 0px 3px #227B95;
+};
